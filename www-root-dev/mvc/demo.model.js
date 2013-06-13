@@ -1,5 +1,4 @@
 define([ 
-	"order!assets/js/backbone-min.js"
 ], function() {
 	var model = Backbone.Model.extend({ 
 		defaults: {

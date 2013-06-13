@@ -1,7 +1,6 @@
-define([ 
-	"order!assets/js/backbone-min.js",
-	"text!./../../../mvc/demo.html"
-], function(b, demoTemplate) {
+define([  
+	"text!MVC/demo.html"
+], function(demoTemplate) {
 
 	var $ = jQuery;
 	var view = Backbone.View.extend({ 

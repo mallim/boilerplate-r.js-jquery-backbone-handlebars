@@ -1,6 +1,6 @@
 define([
-  "order!mvc/demo.view.js",
-  "order!mvc/demo.model.js"
+  "order!MVC/demo.view.js",
+  "order!MVC/demo.model.js"
 ], function( DemoView, DemoModel ){
 
   var $ = jQuery; 

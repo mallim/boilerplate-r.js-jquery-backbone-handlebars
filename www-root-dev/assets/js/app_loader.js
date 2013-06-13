@@ -1,16 +1,17 @@
-define([ 
-	"order!assets/js/handlebars.js",
-	"order!assets/js/jquery.min.js",
-	"order!assets/js/underscore-min.js",
-	"order!assets/js/backbone-min.js",
+define("app_loader",[ 
+  "jquery",
+	"underscore",
+  "backbone",
+  "handlebars",
 	"order!assets/js/app_routes.js"
-], function(a, b, c, d, router){ 
+], function(jQuery, underscore, Backbone, Handlebars, router){ 
   
+
   jQuery.noConflict(  );
 
   return {
     $: jQuery,
-    _: _,
+    _: underscore,
     Backbone: Backbone,
     router: router,
     Handlebars: Handlebars
