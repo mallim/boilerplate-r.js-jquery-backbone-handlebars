@@ -1,5 +1,5 @@
 define([  
-	"text!MVC/demo.html"
+	"text!./../../../mvc/demo.html"
 ], function(demoTemplate) {
 
 	var $ = jQuery;

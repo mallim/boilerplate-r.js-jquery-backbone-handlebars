@@ -4,7 +4,7 @@ define("app_loader",[
   "backbone",
   "handlebars",
 	"order!assets/js/app_routes.js"
-], function(jQuery, underscore, Backbone, Handlebars, router){ 
+], function(jQuery, underscore, bb, hb, router){ 
   
 
   jQuery.noConflict(  );
@@ -16,4 +16,5 @@ define("app_loader",[
     router: router,
     Handlebars: Handlebars
   };
+  
 });
