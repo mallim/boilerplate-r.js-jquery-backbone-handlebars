@@ -2,7 +2,7 @@
 define('app',[
 	"app_loader"
 ],  
-function(loader ){
+function(loader){
 	var $ = loader.$;
 	var Backbone = loader.Backbone;  
  

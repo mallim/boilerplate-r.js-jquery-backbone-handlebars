@@ -2,6 +2,8 @@ define([
 	"order!assets/js/backbone-min.js",
 	"text!./../../../mvc/demo.html"
 ], function(b, demoTemplate) {
+
+	var $ = jQuery;
 	var view = Backbone.View.extend({ 
 		initialize: function(){ 
 			this.undelegateEvents();

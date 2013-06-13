@@ -1,10 +1,10 @@
 define([
-  "order!assets/js/backbone-min.js",
   "order!mvc/demo.view.js",
   "order!mvc/demo.model.js"
-], function(a,DemoView, DemoModel){
+], function( DemoView, DemoModel ){
 
-   
+  var $ = jQuery; 
+
   var Router = Backbone.Router.extend({
     routes: {
       "demo":                 "demo",    // #help
